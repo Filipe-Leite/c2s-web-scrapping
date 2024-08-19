@@ -12,9 +12,10 @@
 
 ActiveRecord::Schema[7.1].define(version: 2024_08_08_220004) do
   create_table "products", charset: "utf8mb3", force: :cascade do |t|
+    t.integer "task_id"
     t.string "brand"
     t.string "model"
-    t.integer "price"
+    t.float "price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
