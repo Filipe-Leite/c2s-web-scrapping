@@ -44,6 +44,7 @@ Websocket
 
 ## 2 - After clone the microservices go to each cloned repository (make sure you are using the correct Ruby language and Ruby On Rails versions) and run:
 
+rails db:create db:migrate db:seed
 Rails server #on each terminal session for each repository above
 
 ## 3 - Clone the front-end repository
