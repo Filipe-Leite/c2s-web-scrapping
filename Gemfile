@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 
-ruby "3.0.2"
+ruby "3.3.5"
+gem 'ostruct'
+gem 'logger'
 gem "rails", "~> 7.1.3", ">= 7.1.3.4"
 gem "puma", ">= 5.0"
 gem "tzinfo-data", platforms: %i[ mswin mswin64 mingw x64_mingw jruby ]
@@ -15,7 +17,7 @@ group :development do
   # gem "spring"
 end
 
-gem 'mysql2', '>= 0.5.3'
+gem 'mysql2' #, '>= 0.5.3'
 gem 'jwt'
 gem 'nokogiri'
 gem "bcrypt", "~> 3.1.7"

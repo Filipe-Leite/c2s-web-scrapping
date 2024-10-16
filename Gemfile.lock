@@ -149,6 +149,7 @@ GEM
       stringio
       time
       uri
+    ostruct (0.6.0)
     psych (5.1.2)
       stringio
     puma (6.4.2)
@@ -248,9 +249,11 @@ DEPENDENCIES
   faraday
   interactor
   jwt
-  mysql2 (>= 0.5.3)
+  logger
+  mysql2
   nokogiri
   open-uri
+  ostruct
   puma (>= 5.0)
   rack-cors
   rails (~> 7.1.3, >= 7.1.3.4)
@@ -260,7 +263,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 3.0.2p107
+   ruby 3.3.5p100
 
 BUNDLED WITH
    2.5.17

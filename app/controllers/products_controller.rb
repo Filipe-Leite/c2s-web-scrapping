@@ -3,6 +3,13 @@ require 'json'
 
 class ProductsController < ApplicationController
 
+  def index
+    @products = Product.all
+
+    render json: @products, status: :ok
+  end  
+
+
   def create
     begin
       token = request.headers['Authorization']&.split(' ')&.last
