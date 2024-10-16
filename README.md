@@ -57,15 +57,17 @@ Rails server #on each terminal session for each repository above
 
 ### 4.1 - Go to c2s-frontend directory and run to run the front-end system:
 
+npm install
 npm start
 
-### 4.2 - Make sure you have redis installed and run to run the redis server:
+### 4.2 - Make sure your machine has redis installed and run to run the redis server:
 
 redis-server
 
 ### 4.3 - Go to c2s-frontend/server directory and run:
 #### This step is for run the websocket for listen to redis modifications in task_updates channel
 
+npm install
 npm run dev
 
 ## 5 - Success!!! Now you can create two or more accounts and login at same time
